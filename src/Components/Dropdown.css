@@ -1,0 +1,9 @@
+.select {
+  width: 200px;
+  height: 50px;
+  border: 1px solid black;
+}
+.selectedOptions {
+  margin: 10px;
+  height: fit-content;
+}

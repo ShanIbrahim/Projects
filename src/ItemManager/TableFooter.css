@@ -1,0 +1,30 @@
+.tablefooter {
+  margin-top: 50px;
+  float: left;
+}
+.action {
+  margin-right: 30px;
+  border: 1px solid black;
+  color: black;
+  font-size: 16px;
+  padding: 16px 30px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.detail {
+  margin-right: 30px;
+  font-size: 16px;
+  padding: 16px 30px;
+  border-radius: 5px;
+  border: 1px solid black;
+}
+.action:hover {
+  background-color: black;
+  color: white;
+}
+.detailedobject {
+  text-align: start;
+  padding: 10px;
+  width: 600px;
+  border: 1px solid black;
+}

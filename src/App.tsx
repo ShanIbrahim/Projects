@@ -1,24 +1,21 @@
 import React from "react";
 import "./App.css";
-import Table from "./Table";
+import ItemManager from "./ItemManager/ItemManager";
 
-const Nutritions = [
-  "Vitamin A",
-  "Vitamin C",
-  "Vitamin D",
-  "Vitamin E",
-  "Vitamin K",
-  "Vitamin B1",
-  "Vitamin B2",
-  "Vitamin B3",
-  "Vitamin B6",
-  "Vitamin B12",
+const tableHeads = [
+  "ID",
+  "Name",
+  "Description",
+  "Link",
+  "Should Cook",
+  "Nutritions",
+  "Max. Intake per day (in grams)Intake",
 ];
 
 function App() {
   return (
     <div className="App">
-      <Table data={Nutritions} />
+      <ItemManager tableHeads={tableHeads} />
     </div>
   );
 }
